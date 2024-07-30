@@ -85,7 +85,7 @@ const Projects = () => {
           title="Ramda Functions"
           imageUrl="static/images/ramda.webp"
           description="Implemented multiple Ramda functions from scratch under test. (transduce, applySpec, map, curry, reduce, and filter)"
-          icons={["static/images/javascript.png", "src/images/jest.png"]}
+          icons={["static/images/javascript.png", "static/images/jest.png"]}
         />
       </StyledProjects>
     </ProjectsWrapper>

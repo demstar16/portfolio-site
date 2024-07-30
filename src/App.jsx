@@ -28,7 +28,7 @@ function App() {
 
   return (
     <Wrapper>
-      <StyledLogo src="./src/assets/favicon.ico" />
+      <StyledLogo src="./static/assets/favicon.ico" />
       <Carousel currentDisplayIndex={displayIndex}>
         <Home />
         <Projects />

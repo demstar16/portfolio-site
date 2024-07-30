@@ -42,50 +42,50 @@ const Projects = () => {
       <StyledProjects>
         <Project
           title="Connect4"
-          imageUrl="src/images/connect4.png"
+          imageUrl="static/images/connect4.png"
           description="Full stack Connect4 application created with React + TypeScript, and deployed on AWS."
           icons={[
-            "src/images/react.png",
-            "src/images/typescript.png",
-            "src/images/vite.svg",
-            "src/images/aws.png",
-            "src/images/docker.png",
-            "src/images/storybook.png",
+            "static/images/react.png",
+            "static/images/typescript.png",
+            "static/images/vite.svg",
+            "static/images/aws.png",
+            "static/images/docker.png",
+            "static/images/storybook.png",
           ]}
         />
         <Project
           title="Cleaning Equipment WA"
-          imageUrl="src/images/cewa.png"
+          imageUrl="static/images/cewa.png"
           description="Web application built for CEWA with Django"
-          icons={["src/images/django.png", "src/images/python.webp"]}
+          icons={["static/images/django.png", "static/images/python.webp"]}
         />
         <Project
           title="Triumph"
-          imageUrl="src/images/triumph.png"
+          imageUrl="static/images/triumph.png"
           description="CLI political wargame made with Python, involved creating AI to play the game as well (if you could call it AI)."
           icons={[
-            "src/images/python.webp",
-            "src/images/numpy.png",
-            "src/images/networkx.png",
+            "static/images/python.webp",
+            "static/images/numpy.png",
+            "static/images/networkx.png",
           ]}
         />
         <Project
           title="SICP"
-          imageUrl="src/images/sicp.webp"
+          imageUrl="static/images/sicp.webp"
           description="Working through the Structure & Interpretation of Computer Programs textbook. A challenging textbook I wish I knew of sooner."
-          icons={["src/images/lisp.png"]}
+          icons={["static/images/lisp.png"]}
         />
         <Project
           title="Template CLI"
-          imageUrl="src/images/template-cli.png"
+          imageUrl="static/images/template-cli.png"
           description="A template generator for conveniently starting new projects with ease and skipping mundane set up and configuration steps."
-          icons={["src/images/javascript.png"]}
+          icons={["static/images/javascript.png"]}
         />
         <Project
           title="Ramda Functions"
-          imageUrl="src/images/ramda.webp"
+          imageUrl="static/images/ramda.webp"
           description="Implemented multiple Ramda functions from scratch under test. (transduce, applySpec, map, curry, reduce, and filter)"
-          icons={["src/images/javascript.png", "src/images/jest.png"]}
+          icons={["static/images/javascript.png", "src/images/jest.png"]}
         />
       </StyledProjects>
     </ProjectsWrapper>

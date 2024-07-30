@@ -46,32 +46,32 @@ const Experience = () => {
         <ExperienceBlock
           title="Undergraduate Degree"
           description="Completed a Bachelor of Science undergraduate degree majoring in Computer Science and Software Engineering at UWA."
-          imgUrl="src/images/uwa.webp"
+          imgUrl="static/images/uwa.webp"
         />
         <ExperienceBlock
           title="Software Intern"
           description="Interned with Gene S through my degree which was an awesome experience. Involved working with Python and Rust, along with learning how to work as a dev outside of university for the first time."
-          imgUrl="src/images/genes.png"
+          imgUrl="static/images/genes.png"
         />
         <ExperienceBlock
           title="Software Developer"
           description="Currently employed with JourneyOne, learning and working within a team practising TDD, clean code principles, functional programming and practical problem solving to solve problems with software."
-          imgUrl="src/images/journeyone.png"
+          imgUrl="static/images/journeyone.png"
         />
         <ExperienceBlock
           title="AWS Certified Cloud Practitioner"
           description="Completed the AWS certified cloud practitioner certification"
-          imgUrl="src/images/aws.webp"
+          imgUrl="static/images/aws.webp"
         />
         <ExperienceBlock
           title="Software Developer"
           description="Worked on multiple in house projects for family business, Cleaning Equipment WA."
-          imgUrl="src/images/cewa.png"
+          imgUrl="static/images/cewa.png"
         />
         <ExperienceBlock
           title="Microsoft Certified: Azure Fundamentals"
           description="Completed the Azure fundamentals certification"
-          imgUrl="src/images/azure.png"
+          imgUrl="static/images/azure.png"
         />
       </StyledExperience>
     </Wrapper>

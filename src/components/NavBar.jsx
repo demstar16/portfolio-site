@@ -53,8 +53,8 @@ const NavBar = ({ handleLinkClick = () => {} }) => {
     const ctx = canvas.getContext("2d");
     const spriteSheetImage = new Image();
     const backgroundImage = new Image();
-    spriteSheetImage.src = "src/assets/spritesheet.png";
-    backgroundImage.src = "src/assets/forest.png";
+    spriteSheetImage.src = "static/assets/spritesheet.png";
+    backgroundImage.src = "static/assets/forest.png";
 
     let frames = {};
     let currentFrame = 0;
@@ -85,7 +85,7 @@ const NavBar = ({ handleLinkClick = () => {} }) => {
     resizeCanvas();
     window.addEventListener("resize", resizeCanvas);
 
-    fetch("src/assets/spritesheet.json")
+    fetch("static/assets/spritesheet.json")
       .then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);

@@ -80,7 +80,7 @@ const Home = () => {
   return (
     <StyledHomePage>
       <Wrapper>
-        <StyledImg src="src/images/profile-pic.png" />
+        <StyledImg src="static/images/profile-pic.png" />
         <StyledInfo>
           <StyledText>Hello Traveller!</StyledText>
           <StyledText>
@@ -98,11 +98,11 @@ const Home = () => {
           </StyledText>
           <StyledIcons>
             <ImageWithLink
-              imageUrl="src/images/github.png"
+              imageUrl="static/images/github.png"
               linkUrl={"https://github.com/demstar16"}
             />
             <ImageWithLink
-              imageUrl={"src/images/linkedin.png"}
+              imageUrl={"static/images/linkedin.png"}
               linkUrl={
                 "https://www.linkedin.com/in/dempsey-thompson-b91614197/"
               }

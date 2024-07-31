@@ -41,6 +41,7 @@ const Projects = () => {
       <StyledTitle>Noteworthy Projects</StyledTitle>
       <StyledProjects>
         <Project
+          projectUrl="http://dempsey-connect-4-bucket.s3-website-ap-southeast-2.amazonaws.com/"
           title="Connect4"
           imageUrl="static/images/connect4.png"
           description="Full stack Connect4 application created with React + TypeScript, and deployed on AWS."
@@ -60,6 +61,7 @@ const Projects = () => {
           icons={["static/images/django.png", "static/images/python.webp"]}
         />
         <Project
+          projectUrl="https://github.com/demstar16/triumph"
           title="Triumph"
           imageUrl="static/images/triumph.png"
           description="CLI political wargame made with Python, involved creating AI to play the game as well (if you could call it AI)."
@@ -70,18 +72,21 @@ const Projects = () => {
           ]}
         />
         <Project
+          projectUrl="https://github.com/demstar16/sicp-exercises"
           title="SICP"
           imageUrl="static/images/sicp.webp"
           description="Working through the Structure & Interpretation of Computer Programs textbook. A challenging textbook I wish I knew of sooner."
           icons={["static/images/lisp.png"]}
         />
         <Project
+          projectUrl="https://github.com/dempseyt/template-cli"
           title="Template CLI"
           imageUrl="static/images/template-cli.png"
           description="A template generator for conveniently starting new projects with ease and skipping mundane set up and configuration steps."
           icons={["static/images/javascript.png"]}
         />
         <Project
+          projectUrl="https://github.com/dempseyt/"
           title="Ramda Functions"
           imageUrl="static/images/ramda.webp"
           description="Implemented multiple Ramda functions from scratch under test. (transduce, applySpec, map, curry, reduce, and filter)"

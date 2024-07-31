@@ -2,7 +2,7 @@
 /* eslint-disable react/prop-types */
 import styled from "styled-components";
 
-const StyledProject = styled.div`
+const StyledProject = styled.a`
   display: flex;
   gap: 10px;
   font-family: Hurmit;
@@ -12,6 +12,11 @@ const StyledProject = styled.div`
   border: 1px solid forestgreen;
   border-radius: 20px;
   padding: 1rem;
+  text-decoration: none;
+
+  &:hover {
+    border: 2px solid darkgreen;
+  }
 
   @media (max-width: 550px) {
     flex-wrap: wrap;
@@ -38,6 +43,8 @@ const StyledImg = styled.img`
 
 const StyledDescription = styled.p`
   font-size: 0.8rem;
+  color: black;
+  padding: 5px;
 `;
 
 const ProjectDetailsWrapper = styled.div`
@@ -51,9 +58,9 @@ const StyledIcons = styled.div`
   width: fit-content;
 `;
 
-const Project = ({ title, imageUrl, description, icons }) => {
+const Project = ({ title, imageUrl, description, icons, projectUrl }) => {
   return (
-    <StyledProject>
+    <StyledProject href={projectUrl} target="_blank">
       <StyledImg src={imageUrl} />
       <ProjectDetailsWrapper>
         <StyledTitle>{title}</StyledTitle>

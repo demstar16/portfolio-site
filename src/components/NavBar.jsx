@@ -34,8 +34,6 @@ const StyledLink = styled.a`
 
 const StyledCanvas = styled.canvas`
   position: absolute;
-  top: 0;
-  left: 0;
   z-index: 1;
   height: 70px;
   width: 100%;

@@ -49,6 +49,7 @@ const Wrapper = styled.div`
     align-items: center;
     overflow: auto;
     max-height: 90vh;
+    margin: 0;
   }
 `;
 

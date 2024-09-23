@@ -4,7 +4,7 @@ import styled from "styled-components";
 const StyledNavBar = styled.div`
   display: flex;
   justify-content: space-around;
-  background-color: white;
+  background-color: darkgreen;
   position: relative;
   width: 100%;
   white-space: nowrap;
@@ -20,7 +20,7 @@ const StyledNavBar = styled.div`
 const StyledLink = styled.a`
   display: inline-block;
   font-family: Hurmit;
-  color: forestgreen;
+  color: white;
   font-weight: 700;
   text-align: center;
   padding: 14px 16px;
@@ -32,12 +32,21 @@ const StyledLink = styled.a`
   }
 `;
 
+const StyledText = styled.p`
+  display: inline-block;
+  font-family: Hurmit;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  padding: 14px 16px;
+`;
+
 const StyledCanvas = styled.canvas`
   position: absolute;
   z-index: 1;
   height: 70px;
   width: 100%;
-  margin-top: -68px;
+  margin-top: -80px;
   padding-top: 12px;
   pointer-events: none; /* Make the canvas ignore pointer events */
 `;
@@ -245,9 +254,11 @@ const NavBar = ({ handleLinkClick = () => {} }) => {
       <StyledLink onClick={() => handleLinkClick(0)} className="nav-link">
         Home
       </StyledLink>
+      <StyledText>|</StyledText>
       <StyledLink onClick={() => handleLinkClick(1)} className="nav-link">
         Projects
       </StyledLink>
+      <StyledText>|</StyledText>
       <StyledLink onClick={() => handleLinkClick(2)} className="nav-link">
         Experience
       </StyledLink>

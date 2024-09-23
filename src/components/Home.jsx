@@ -15,8 +15,8 @@ const StyledHomePage = styled.div`
 `;
 
 const StyledImg = styled.img`
-  border: 6px solid forestgreen;
-  border-radius: 100px;
+  /* border: 6px solid forestgreen; */
+  /* border-radius: 100px; */
   max-width: 350px;
   max-height: 350px;
   width: 100%;
@@ -25,8 +25,8 @@ const StyledImg = styled.img`
   @media (max-width: 900px) {
     max-width: 200px;
     max-height: 200px;
-    border-radius: 50px;
-    border: 3px solid forestgreen;
+    /* border-radius: 50px; */
+    /* border: 3px solid forestgreen; */
   }
 `;
 
@@ -43,6 +43,7 @@ const Wrapper = styled.div`
   display: flex;
   max-width: 80vw;
   max-height: 50vh;
+  align-items: center;
 
   @media (max-width: 900px) {
     flex-direction: column;
@@ -81,7 +82,7 @@ const Home = () => {
   return (
     <StyledHomePage>
       <Wrapper>
-        <StyledImg src="static/images/profile-pic.png" />
+        <StyledImg src="static/images/avatar2.png" />
         <StyledInfo>
           <StyledText>Hello Traveller!</StyledText>
           <StyledText>

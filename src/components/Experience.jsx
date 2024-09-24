@@ -68,11 +68,11 @@ const Experience = () => {
           description="Worked on multiple in house projects for family business, Cleaning Equipment WA."
           imgUrl="static/images/cewa.png"
         />
-        {/* <ExperienceBlock
+        <ExperienceBlock
           title="Microsoft Certified: Azure Fundamentals"
           description="Completed the Azure fundamentals certification"
-          imgUrl="static/images/azure.png"
-        /> */}
+          imgUrl="static/images/microsoft.png"
+        />
       </StyledExperience>
     </Wrapper>
   );

@@ -9,13 +9,12 @@ const StyledProject = styled.a`
   width: 600px;
   height: fit-content;
   margin-right: 2px;
-  border: 1px solid forestgreen;
-  border-radius: 20px;
+  border-left: 2px solid forestgreen;
   padding: 1rem;
   text-decoration: none;
 
   &:hover {
-    border: 2px solid darkgreen;
+    border-left: 4px solid darkgreen;
   }
 
   @media (max-width: 550px) {
@@ -36,7 +35,7 @@ const StyledTitle = styled.h3`
 `;
 
 const StyledImg = styled.img`
-  width: 200px;
+  /* width: 150px; */
   height: 120px;
   border-radius: 20px;
 `;

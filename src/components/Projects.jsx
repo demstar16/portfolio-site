@@ -56,27 +56,27 @@ const Projects = () => {
         />
         <Project
           title="Cleaning Equipment WA"
-          imageUrl="static/images/cewa.png"
+          imageUrl="static/images/cleaner.png"
           description="Web application built for CEWA with Django"
           icons={["static/images/django.png", "static/images/python.webp"]}
         />
         <Project
+          projectUrl="https://github.com/demstar16/sicp-exercises"
+          title="SICP"
+          imageUrl="static/images/sicp.png"
+          description="Working through the Structure & Interpretation of Computer Programs textbook. A challenging textbook I wish I knew of sooner."
+          icons={["static/images/lisp.png"]}
+        />
+        <Project
           projectUrl="https://github.com/demstar16/triumph"
           title="Triumph"
-          imageUrl="static/images/triumph.png"
+          imageUrl="static/images/political-wargame.png"
           description="CLI political wargame made with Python, involved creating AI to play the game as well (if you could call it AI)."
           icons={[
             "static/images/python.webp",
             "static/images/numpy.png",
             "static/images/networkx.png",
           ]}
-        />
-        <Project
-          projectUrl="https://github.com/demstar16/sicp-exercises"
-          title="SICP"
-          imageUrl="static/images/sicp.webp"
-          description="Working through the Structure & Interpretation of Computer Programs textbook. A challenging textbook I wish I knew of sooner."
-          icons={["static/images/lisp.png"]}
         />
         <Project
           projectUrl="https://github.com/dempseyt/template-cli"
@@ -88,7 +88,7 @@ const Projects = () => {
         <Project
           projectUrl="https://github.com/dempseyt/"
           title="Ramda Functions"
-          imageUrl="static/images/ramda.webp"
+          imageUrl="static/images/ramda.png"
           description="Implemented multiple Ramda functions from scratch under test. (transduce, applySpec, map, curry, reduce, and filter)"
           icons={["static/images/javascript.png", "static/images/jest.png"]}
         />

@@ -61,7 +61,7 @@ const Experience = () => {
         <ExperienceBlock
           title="AWS Certified Cloud Practitioner"
           description="Completed the AWS certified cloud practitioner certification"
-          imgUrl="static/images/aws.webp"
+          imgUrl="static/images/ccp-badge.png"
         />
         <ExperienceBlock
           title="Software Developer"
@@ -71,7 +71,7 @@ const Experience = () => {
         <ExperienceBlock
           title="Microsoft Certified: Azure Fundamentals"
           description="Completed the Azure fundamentals certification"
-          imgUrl="static/images/microsoft.png"
+          imgUrl="static/images/az900-badge.png"
         />
       </StyledExperience>
     </Wrapper>

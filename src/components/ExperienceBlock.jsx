@@ -26,7 +26,7 @@ const StyledTitle = styled.h2`
 
 const StyledImg = styled.img`
   max-width: 100px;
-  max-height: 50px;
+  max-height: 100px;
   padding-right: 1rem;
 `;
 
